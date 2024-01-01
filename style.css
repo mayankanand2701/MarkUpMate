@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: rgb(248, 203, 211);
+    height: 100%;
+}
+.wrapper {
+    background: #ffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow-y: auto; /* Added overflow-y for vertical scrolling */
+    max-height: 80vh; /* Set max height to 80% of the viewport height */
+}
+
+.wrapper p {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input,
+.container button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container input {
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: grey;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #ffff;
+    color: grey;
+    border: 2px solid black;
+}
