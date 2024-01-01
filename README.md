@@ -1,4 +1,4 @@
-# Markup Mate
+# MarkupMate
 Markup Mate is a responsive web-based text highlighter that allows users to easily search for and emphasize specific text within paragraphs. With its user-friendly interface and intuitive functionalities, Markup Mate aims to enhance content readability and comprehension for users across various platforms.
 
 ## Features
